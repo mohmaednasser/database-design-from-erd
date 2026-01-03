@@ -1,41 +1,42 @@
-🗄️ From ERD to Database Tables | Database Design Project
-
-📌 Project Overview
-This project demonstrates the complete process of designing a relational database
-starting from an **Entity Relationship Diagram (ERD)** and transforming it into
-well-structured and normalized database tables ready for implementation.
-
-The project focuses on understanding business requirements,
-modeling entities and relationships, and converting them into a logical database schema.
+# 🗄️ From ERD to Database Tables  
+## Database Design Project
 
 ---
 
-🎯 Project Objectives
+## 📌 Project Overview
+This project demonstrates the **complete database design lifecycle**, starting from  
+**Entity Relationship Diagrams (ERD)** and transforming them into **well-structured, normalized relational database tables** ready for SQL implementation.
+
+The project focuses on understanding business requirements, identifying entities and relationships, and converting conceptual designs into a logical database schema.
+
+---
+
+## 🎯 Project Objectives
 - Design clear and accurate ERDs based on business requirements
 - Identify entities, attributes, and relationships
-- Apply normalization principles
+- Apply database normalization principles
 - Convert ERD structures into relational database tables
-- Prepare the database design for SQL implementation
+- Prepare the schema for SQL implementation and data analysis
 
 ---
 
-🧩 ERD Design
-The ERDs illustrate:
+## 🧩 ERD Design
+The ERD diagrams illustrate:
 - Core entities and their attributes
-- One-to-one, one-to-many, and many-to-many relationships
-- Associative (junction) tables for M:N relationships
-- Primary keys and foreign keys
+- One-to-One, One-to-Many, and Many-to-Many relationships
+- Junction (associative) tables for M:N relationships
+- Primary Keys (PK) and Foreign Keys (FK)
 
-🔹 Sample ERD Diagrams
-(erd-1.png.png)
-(erd-2.png.png)
+### 🔹 Sample ERD Diagrams
+![ERD Diagram 1](erd-1.png.jpg)
+![ERD Diagram 2](erd-2.png.jpg)
 
 ---
 
-🗂 Database Tables Design
-Based on the ERDs, the following database tables were designed:
+## 🗂 Database Tables Design
+Based on the ERD analysis, the following database tables were designed:
 
-🔹 Core Tables
+### 🔹 Core Tables
 - Student
 - Course
 - Group
@@ -43,37 +44,37 @@ Based on the ERDs, the following database tables were designed:
 - Session
 - Payment
 
-🔹 Junction Tables
-- Student_Group
-- Student_Session
+### 🔹 Junction Tables
+- Student_Group  
+- Student_Session  
 
-These tables ensure data integrity and proper relationship handling.
+These tables ensure **data integrity**, proper relationship handling, and scalability.
 
 ---
 
-🛠 Tools Used
+## 🛠 Tools Used
 - ERD Design Tools
 - Database Design Principles
-- SQL-ready relational modeling
+- SQL-ready Relational Modeling
 
 ---
 
-🔗 Key Design Considerations
+## 🔗 Key Design Considerations
 - Elimination of data redundancy through normalization
-- Clear definition of primary and foreign keys
+- Clear definition of Primary Keys and Foreign Keys
 - Logical separation of entities
-- Support for scalability and future expansion
+- Support for scalability and future system expansion
 
 ---
 
-📁 Project Files
+## 📁 Project Files
 - ERD diagrams (images)
 - Database schema documentation
 - Relational tables design
 
 ---
 
-🚀 Portfolio Value
+## 🚀 Portfolio Value
 This project demonstrates:
 - Strong understanding of database fundamentals
 - Ability to translate business requirements into data models
