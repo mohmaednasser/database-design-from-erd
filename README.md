@@ -27,8 +27,8 @@ The ERDs illustrate:
 - Primary keys and foreign keys
 
 🔹 Sample ERD Diagrams
-![ERD Diagram 1](erd-1.png.png)
-![ERD Diagram 2](erd-2.png.png)
+(erd-1.png.png)
+(erd-2.png.png)
 
 ---
 
